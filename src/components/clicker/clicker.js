@@ -35,9 +35,9 @@ class Clicker extends Component {
     <div className="Clicker">
       <p> You clicked {counter} times</p>
       <button onClick={() => this.onClickButton()}>click me</button>  
-      <Button>Normal</Button>
-      <Button primary>Primary</Button>
-      <TomatoButton>Normal</TomatoButton>
+      <Button>Normal</Button>{/*тут все рушится, если закоментить, работает*/}
+      <Button primary>Primary</Button>{/*тут все рушится, если закоментить, работает*/}
+      <TomatoButton>Normal</TomatoButton>{/*тут все рушится, если закоментить, работает*/}
     </div>
     )
   };
